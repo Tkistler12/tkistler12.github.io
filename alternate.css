@@ -1,0 +1,145 @@
+#header_nfl_logo{
+    border: solid 2px black;
+    box-shadow: -5px -2px 3px black, 10px 10px 5px black;
+    position: relative;
+    left: 440px;
+    
+}
+
+#nav, #nav_2 { 
+    background-color: black; 
+    color: white; 
+    width: 150px;
+    height: 25px;
+    text-align: center;
+}
+
+#nav:hover, #nav_2:hover{
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.body{
+    background-color: rgb(146, 128, 71);
+}
+
+.body h1{
+    text-decoration: underline;
+}
+
+
+h2{
+    text-decoration: underline;
+}
+
+#AFC Table p{
+    text-align: center;
+}
+
+#AFC Table{
+    border: dotted 2px black;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#AFC_logo{
+    border: solid 2px blue;
+    background-color: blue;
+    box-shadow: -5px -2px 3px black, 10px 10px 5px black;
+    
+}
+
+h3{
+    text-decoration: underline;
+    font-style: italic;
+}
+
+caption{
+    font-style: italic;
+}
+
+
+#AFC_divisions_list{
+    color:black;
+}
+
+#NFC_logo{
+    border: solid 2px red;
+    background-color: red;
+    display: block;
+    height: 100px;
+    box-shadow: -5px -2px 3px black, 10px 10px 5px black;
+}
+
+#NFC_divisions_list{
+    color: black;
+}
+
+#NFC Table{
+    border: dotted 2px black;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#NFC Table p{
+    text-align: center;
+}
+
+#NFL_field{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#goal_post{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: -5px -2px 3px black, 10px 10px 5px black;
+}
+
+#trophy{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: -5px -2px 3px black, 10px 10px 5px black;
+}
+
+#bucs_logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    box-shadow: -5px -2px 3px black, 10px 10px 5px black;
+}
+
+
+h1{
+    text-align: center;
+    font-style: italic;
+    text-shadow: 0 0 3px black, 0 0 6px rgb(146, 128, 71);
+    
+}
+
+.body_2{
+    background-color: red;
+}
+
+#rj_logo{
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+#captain_fear{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sb_table{
+    border: dotted 2px black;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head class = "head_2">
+    <meta charset="UTF-8">
+    <!-- <link href="main.css" rel="stylesheet"> -->
+    <link id='csslink' rel="stylesheet" href="main.css" />
+    <title id = "title_2">My Favorite Team</title>
+    <link id = "tab_logo_2" rel = "icon" href = "bucs_logo.png">
+
+    <script>
+	    function toggleCSS() {
+          // Obtains the <link> element that links to the css (by using its id).
+          var currentCSS = document.getElementById('csslink');
+
+          // Change the value of href attribute to change the css file.
+          if (currentCSS.getAttribute('href') == 'main.css') {
+            currentCSS.setAttribute('href', 'alternate.css');
+          } else {
+            currentCSS.setAttribute('href', 'main.css');
+          }
+      }
+    </script>
+
+</head>
+
+<body class = "body_2">
+    <header class = "header_2"> 
+        <nav id = "nav_2">
+            <a id = "index_link" href = "index.html">Main Page</a>
+            
+        </nav>
+        <div id = "logo_&_header">
+        <img id = "bucs_logo" src = "bucs_logo.png" alt = "Bucs Logo" width = "300px" height="200px">
+        <h1>Tampa Bay Buccaneers</h1>
+        </div>
+    </header>
+
+    <main class = "main_2"> 
+        <section id = "my_favorite_team"> 
+            <h2> My Favorite Team</h2>
+            <p> My Favorite Team is the Tampa Bay Buccanners. They are an NFL football team that is based out of Tampa, Florida. 
+                
+                <p>
+                    Why am I a fan?
+                    <ol id = "fan_list"> 
+                        <li>Born in Tampa</li>
+                        <li>Lived in Tampa my whole life</li>
+                        <li>My family is all Buccaneer fans</li>
+                    </ol>
+                </p>
+            </p>    
+        </section>
+
+        <section id = "about_buccaneers"> 
+            <div>
+                <h2>About The Buccaneers</h2>
+                <p>
+                    The club joined the NFL in 1976 as an expansion team, along with the Seattle Seahawks, and played its first season in the American Football Conference (AFC) West division. 
+                    Prior to the 1977 season, Tampa Bay switched conferences and divisions with Seattle, becoming a member of the NFC Central division. 
+                    As a result of the league's realignment prior to the 2002 season, the Buccaneers joined three former NFC West teams to form the NFC South. 
+                    The club is owned by the Glazer family and plays its home games at Raymond James Stadium (Pictured Below) in Tampa. The mascot for the Tampa Bay 
+                    Buccanners is Captain Fear! 
+                </p>
+            </div>
+
+            <div>
+                <img id = "rj_logo" src = "Raymond_James.jpg" alt = "Raymond James Stadium" width = "400" height = "200">
+                <img id = "captain_fear" src = "Captain_Fear.jpg" alt = "Captain Fear" width ="200" height = "200">   </br>
+                <a id ="bucs_wiki" href = "https://en.wikipedia.org/wiki/Tampa_Bay_Buccaneers" target = "_blank">Buccanners Wikipedia Page</a>
+            </div>
+        </section>
+
+        <section id = "good"> 
+            <h2>Are They Any Good?</h2>
+            <p> 
+                The Buccanners when they first joined the NFL in 1976 struggled a little. Today the Buccaneers have won 2 Superbowls and are considered a good team 
+                in the league!
+            </p>
+            <table id = "sb_table">
+                <caption>Tampa Bay Buccaneers Superbowls</caption>
+                <tr> 
+                    <th>Year</th>
+                    <th>Opponent</th>
+                    <th>Location</th>
+                    <th>Final Score</th>
+                </tr>
+
+                <tr> 
+                    <td>2002</td>
+                    <td>Oakland Raiders</td>
+                    <td>Qualcomm Stadium in San Diego, California</td>
+                    <td>TB 48 OAK 21</td>
+                </tr>
+
+                <tr> 
+                    <td>2021</td>
+                    <td>Kansas City Chiefs</td>
+                    <td>Raymond James Stadium in Tampa, Florida</td>
+                    <td>TB 31 KC 9</td>
+                </tr>
+            </table>
+            
+        </section>
+
+        <button onclick="toggleCSS()">Switch Style</button>
+    </main>
+
+    <footer id = "footer_2"> 
+        <p>© 2023 Project Team 12</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,161 @@
+#nav:hover{
+  font-size: larger;
+}
+
+#nav, #nav_2 { 
+    background-color: white;
+    width: 150px; 
+    text-align: center;
+    border: 2px solid red;
+    position: fixed;
+    left: 1150px;
+}
+
+#nav_2:hover{
+    font-size:larger;
+}
+
+.body_2 {
+    background-color: #a09998e7; 
+}
+#bucs_logo{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 300px;
+}
+
+.body_2 h1 {
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    background: repeating-radial-gradient(rgb(173, 168, 169), rgb(255, 255, 255) 15%);
+}
+.body h1{
+    background-color: #ff00009f;
+    text-align:center;
+    font-size: 30px;
+    animation: move 6s linear infinite;
+
+}
+@keyframes move{
+    0%{
+        text-shadow: 0 0 30px;
+    }
+    50%{
+        text-shadow: 0 0 30px;
+        transform: translateY(30px);
+    }
+    100%{
+        text-shadow: 0 0 30px;
+    }
+}
+
+.main_2 {
+    background-color: #a09998e7;
+}
+
+#my_favorite_team {
+    background-color: #a09998e7;
+    margin-top: auto;
+}
+
+h2{
+    text-decoration-line: underline;
+    font-family:'Times New Roman', Times, serif;
+    padding-top: 25px;
+    color: rgba(245, 3, 3, 0.747);
+}
+
+#sb_table{
+    border:solid;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+caption{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+body {
+    background-color: rgb(170, 196, 223);
+}
+
+th{ 
+    background-color: #ff00009f;
+}
+#NFC_divisions_list li{
+    font-size: large;
+    display:inline;
+    color: #ff00009f;
+    font-weight: bold;
+
+}
+#AFC_divisions_list li{
+    font-size:large;
+    display:inline;
+    color: #ff00009f;
+    font-weight: bold;
+}
+
+.main{
+    color:rgb(0, 0, 158);
+}
+
+#header_nfl_logo{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#AFC_logo{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+}
+#NFC_logo{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+}
+#AFC{
+    text-align:center;
+
+}
+#AFC Table{
+    border: black solid;
+    margin-left: auto;
+    margin-right: auto;
+    /* float: right; */
+ 
+}
+#NFC {
+    text-align: center;
+}
+#NFC Table{
+    border: black solid;
+    margin-left: auto;
+    margin-right: auto;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+#goal_post{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#trophy{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#NFL_wiki_page{
+    color: purple;
+}
+.main{
+    animation:alternate-reverse;
+}
