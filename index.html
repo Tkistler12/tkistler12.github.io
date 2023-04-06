@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head class = "head">
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title id = "title">NFL</title>
+    <link id = "tab_nfl_logo" rel = "icon" href = "nfl_logo.png">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+        .carousel-indicators li {
+            border-color: #880303;
+            background-color: #850303;
+        }
+        
+    </style>
+</head>
+
+
+<body class="body">
+    <header class="header">
+        <nav class ="navbar navbar-expand-lg bg-dark navbar-dark">
+          <a class="navbar-brand" href="#">Navigation Menu</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#Gameplay">Gameplay</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#playoffs_superbowl">Playoffs and Superbowl</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#photo_gallery">Photo Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a id = "favteam_link" href = "favteam.html">My Favorite Team</a>
+              </li>
+              <li class="nav-item">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Structure of the NFL
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#AFC">American Football Conference </a>
+                    <a class="dropdown-item" href="#NFC">National Football Conference</a>
+                    
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="text-center"> 
+        <img id = "header_nfl_logo" src = "nfl_logo.png" alt = "NFL Logo">
+        </div>
+    </header>
+        
+
+    <main class = "main"> 
+        <section class ="text-center" id = "What"> 
+            <h1> What is the NFL?</h1>
+            <p>The National Football League (NFL) is a professional American Football league. It is one of the 
+                major professional sport leagues in the United States. The NFL is the highest level of American 
+                football in the world. There are other leagues such as the Canadian Football League (CFL) but it 
+                is considered to be a lower level league when compared to the NFL. 
+            </p>
+            <a id = "NFL_wiki_page" href = "https://en.wikipedia.org/wiki/National_Football_League" target = "_blank">NFL Wikipedia Page</a>
+        </section>
+
+        <section  class="container" id = "Structure"> 
+            <h2>Stucture of the NFL</h2>
+            <p>
+                The NFL is split up into two conferences, the American Football Conference (AFC) and the National 
+                Football Conference (NFC). Each one of these conferences has a total of 16 teams each, 32 teams in 
+                total. Within each conference these 16 teams are divided equally between 4 divisions North, South, 
+                East, West. 
+            </p>
+            
+            <div class="container pt-3" id = "AFC"> 
+                <div class="text-center">
+                <img id = "AFC_logo" src = "afc_logo.png" alt = "AFC logo" width = "200" height = "100">
+                <h3>American Football Conference</h3>
+                </div>
+                <p> 
+                    The AFC divisions are: 
+                    <ul id = "AFC_divisions_list"> 
+                        <li>AFC North</li>
+                        <li>AFC East</li>
+                        <li>AFC South</li>
+                        <li>AFC West</li>
+                    </ul>
+                </p>
+                <div id = "AFC Table"> 
+                    <p>Here is a full list of all teams in the AFC:</p>
+                    <div class="table-responsive">
+                    <table class="table table-bordered table-hover caption-top table-dark"> 
+                        <caption>AFC Teams</caption>    
+                        <thead>
+                        <tr>
+                            <th>North</th>
+                            <th>East</th>
+                            <th>South</th>
+                            <th>West</th> 
+                        </tr>
+                        </thead>
+
+                        <tr>
+                            <td>
+                                Cincinnati Bengals<br>
+                                Baltimore Ravens<br>
+                                Pitsburgh Steelers<br>
+                                Cleveland Browns<br>
+                            </td>
+
+                            <td> 
+                                Buffalo Bills<br>
+                                New England Patriots<br>
+                                New York Jets<br>
+                                Miami Dolphins<br>
+                            </td>
+
+                            <td> 
+                                Indianapolis Colts<br>
+                                Houston Texans<br>
+                                Tennesse Titans<br>
+                                Jacksonville Jaguars<br>
+                            </td>
+
+                            <td>
+                                Denver Broncos<br>
+                                Kansas City Chiefts<br>
+                                Las Vegas Raiders<br>
+                                Los Angeles Chargers<br>
+                            </td>
+                        </tr>
+                    </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container pt-3" id = "NFC"> 
+                <div class = "text-center">
+                <img id = "NFC_logo" src = "nfc_logo.png" alt ="NFC logo" width = "200" height ="100">
+                <h3>National Football Conference</h3>
+                </div>
+                <p> 
+                    The NFC divisions are: 
+                    <ul id = "NFC_divisions_list">
+                        <li>NFC North</li>
+                        <li>NFC East</li>
+                        <li>NFC South</li>
+                        <li>NFC West</li> 
+                    </ul>
+                </p>
+                <div id = "NFC Table table-responsive"> 
+                    <p>Here is a full list of all the teams in the NFC:</p>
+                    <table class="table table-bordered table-hover caption-top table-dark"> 
+                        <caption>NFC Teams</caption>  
+                        <thead>
+                        <tr>
+                            <th>North</th>
+                            <th>East</th>
+                            <th>South</th>
+                            <th>West</th> 
+                        </tr>
+                        </thead>
+
+                        <tr>
+                            <td>
+                                Chicago Bears<br>
+                                Detroit Lions<br>
+                                Green Bay Packers<br>
+                                Minnesota Vikings<br>
+                            </td>
+
+                            <td> 
+                                Dallas Cowboys<br>
+                                Philadelphia Eagles<br>
+                                New York Giants<br>
+                                Washington Commanders<br>
+                            </td>
+
+                            <td> 
+                                Atlanta Falcons<br>
+                                Carolina Panthers<br>
+                                New Orleans Saints<br>
+                                Tampa Bay Buccaneers<br>
+                            </td>
+
+                            <td>
+                                Arizona Cardinals<br>
+                                Lost Angeles Rams<br>
+                                San Francisco 49ers<br>
+                                Seattle Seahawks<br>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <section class="container" id = "Gameplay">
+            <h2>Gameplay</h2>
+            <p> 
+                NFL games have 4 quarters that are 15 minutes each, 60 minutes total. There is a 12 minutes halftime between 
+                the 2nd and 3rd quarter. The field is 360 feet long and 160 feet wide. There is a touchdown and goal posts at
+                the end of both sides. The team at the end, with the most points when the time runs out it the WINNER!!!
+            </p>
+            <div class="container">
+            <div class="text-center">
+            <img id = "NFL_field" src = "field.png" alt = "NFL Field" width = "500">
+            </div>
+
+        
+            <p>
+                There are a total of 5 ways to score points in a game: 
+                <ol id = "score_list">
+                    <li>Touchdown = 6 points</li>
+                    <li>Field Goal = 3 points</li>
+                    <li>Safety = 2 points</li>
+                </ol>
+                After a touchdown you get two options to get additional points:</p>
+                <ol id ="score_list_2">
+                    <li value = "4">Extra point = 1 point</li>
+                    <li value = "5">Two-point conversion = 2 points</li>
+                 </ol>
+
+                 To score a touchdown you must pass or run the ball across the touchdown line at either end of the field. Field 
+                 Goals are scored by kicking the ball between the uprights of the goal post (Pictured below). A safety 
+                 occurs when you tackle the opposing teams ball carrier in their own endzone. After a touchdown you can either kick
+                 the ball  between the goal post from a close range for 1 extra point or try to run or pass it in from a close range
+                 for 2 extra points.
+            </p>
+            <div class="text-center">
+            <img id = "goal_post" src = "gp.jpg" alt = "NFL Goal Posts" width = "300" height = "200">
+            </div>
+            </div>
+        </section>
+        
+        <section class="container text-center pt-3" id = "playoffs_superbowl"> 
+            <h2>Playoffs and Superbowl</h2>
+            <p> 
+                The teams in the NFL all have one goal and that is to make it to the playoffs and win the superbowl. The superbowl 
+                is a game between the two best teams in the league that year to decide who is the best. To get to the superbowl teams 
+                must make it through the playoffs. Following the conclusion of the regular season, the NFL Playoffs, a 14-team single-elimination tournament, is then held. 
+                Seven teams are selected from each conference: the winners of each of the four divisions as well as three wild card teams (the three remaining teams with the best overall record, with tiebreakers in the event of two or more teams having the same record). 
+                These teams are seeded according to overall record and tiebreakers, with the division champions always ranking higher than the wild card teams.[88] 
+                The top team (seeded one) from each conference are awarded a bye week, while the remaining six teams (seeded 2–7) from each conference compete in the first round of the playoffs, the Wild Card round, with the 2-seed competing against the 7-seed, the 3-seed competing against the 6-seed and the 4-seed competing against the 5-seed. 
+                The winners of the Wild Card round advance to the Divisional Round, which matches the lower seeded team against the 1-seed and the two remaining teams against each other. 
+                The winners of those games then compete in the Conference Championships, with the higher remaining seed hosting the lower remaining seed. 
+                The AFC and NFC champions then compete in the Super Bowl to determine the league champion. The winner is then presented with the Lombardi Trophy(pictured below).
+            </p>
+            <img id = "trophy" src = "Trophy.jpg" alt = "Lombardi Trophy">
+        </section>
+
+        <div class="container text-center pt-5" id="photo_gallery">
+            <h2>Photo Gallery</h2>
+        </div>
+        <div class="container-sm pt-1">
+        <div id="carouselExample" class="carousel slide carousel-fade" style="margin:auto">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
+            </div>
+
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">          
+                    <img src="ChocolateZeus.png"
+                        class=" center-block d-block w-50" alt="FirstSlide" style="height:450px;margin:auto">
+                </div>
+                <div class="carousel-item">
+                    <div class="justify-content-center"> 
+                    <img src="McCaffrey.png" class="d-block w-50"
+                        alt="SecondSlide" style="height:450px;margin:auto">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="Mossed.png" class="d-block w-50"
+                        alt="ThirdSlide" style="height:450px;margin:auto">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="OBJ.png" class="d-block w-50"
+                        alt="FourthSlide" style="height:450px;margin:auto">
+                </div>
+                <div class="carousel-item">
+                    <img src="StiffKick.png" class="d-block w-50"
+                        alt="FifthSlide" style="height:550px;margin:auto">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon bg-black" aria-hidden="true"></span>
+                <span class="bg-black">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon bg-black" aria-hidden="true"></span>
+                <span class="bg-black">Next</span>
+            </button>
+        </div>
+        </div>
+        
+    </main>
+
+    <footer class = "footer"> 
+        <p id = "copyright">© 2023 Project Team 12</p> 
+    </footer>
+</body>
+</html>
+
